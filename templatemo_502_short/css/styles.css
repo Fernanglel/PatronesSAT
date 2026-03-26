@@ -1,0 +1,59 @@
+/* RESETEAR template */
+body {
+    margin: 0;
+    background: #f2f2f2;
+    font-family: Arial;
+}
+
+/* CENTRAR */
+.sat-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CAJA */
+.sat-container {
+    width: 500px;
+    background: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+/* TITULO */
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* FORM */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    width: 120px;
+    font-weight: bold;
+}
+
+.sat-input {
+    flex: 1;
+    padding: 10px;
+}
+
+/* BOTONES */
+.btn-principal {
+    border: 1px solid #7a1c2e;
+    color: #7a1c2e;
+    background: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-principal:hover {
+    background: #7a1c2e;
+    color: white;
+}
